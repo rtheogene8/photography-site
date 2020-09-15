@@ -16,3 +16,31 @@
     box-shadow: 5px 1px 25px rgba(109, 109, 109, 0.1);
     padding: 1rem 2rem;
 }
+
+.gallery-container {
+    height: 600px;
+}
+
+.image-wrapper {
+    height: 100%;
+    padding: 5px;
+}
+
+.image-wrapper--large {
+    height: 600px;
+}
+
+.image-wrapper--medium {
+    height: 300px;
+}
+
+.image-wrapper--small {
+    height: 300px;
+}
+
+.image-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
