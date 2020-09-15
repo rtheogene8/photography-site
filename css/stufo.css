@@ -1,0 +1,18 @@
+.section {
+    padding: 8rem 0;
+}
+
+.section__headline {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.work-card {
+    margin-bottom: 2rem;
+}
+
+.work-card__wrapper {
+    background: #fff;
+    box-shadow: 5px 1px 25px rgba(109, 109, 109, 0.1);
+    padding: 1rem 2rem;
+}
