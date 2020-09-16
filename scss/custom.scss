@@ -74,8 +74,9 @@ header {
 
 // SOCIAL MEDIA ICONS
 #about-me {
-    //margin-top: 10rem;
+    padding: 6rem 0px;
     text-align: left;
+
    .social-icons {
        i {
            font-size: 1.5rem;
@@ -85,6 +86,13 @@ header {
 
 .social-info {
     color: black;
+}
+
+.icon-container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*
@@ -135,7 +143,7 @@ header {
 */
 
 #work-alt {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .section__headline {
@@ -160,11 +168,35 @@ header {
   flex-direction: row;
 }
 
-// Gallery Section
-#gallery-alt {
-  
+.work-icon {
+  color: #e68455;
+ }
+ 
+// GALLERY SECTION
+.gallery-container {
+  height: 600px;
 }
 
-#gallery-container {
-  
+.image-wrapper {
+  height: 100%;
+  padding: 5px;
+}
+
+.image-wrapper--large {
+  height: 600px;
+}
+
+.image-wrapper--medium {
+  height: 300px;
+}
+
+.image-wrapper--small {
+  height: 300px;
+}
+
+.image-container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
